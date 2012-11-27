@@ -46,6 +46,17 @@
         <item name="switchMinWidth">96dip</item>
         <item name="switchPadding">16dip</item>
     </style>
+    
+    <style name="Widget.Holo.Purple.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/switch_track_holo_light</item>
+        <item name="thumb">@drawable/switch_inner_holo_purple</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/switch_on</item>
+        <item name="textOff">@string/switch_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
 
     <style name="Preference.SwitchPreference" parent="">
         <item name="android:layout">@layout/preference</item>
